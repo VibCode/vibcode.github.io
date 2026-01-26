@@ -1,6 +1,6 @@
 title: Vibha Sharma
 logo: /assets/img/profile.png
 description: Sr. Product Manager @ServiceNow
-show_downloads: true
-google_analytics:
+show_downloads: false
+#google_analytics:
 theme: jekyll-theme-minimal
