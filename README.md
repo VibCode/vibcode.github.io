@@ -6,13 +6,14 @@
 
 With a strong background in product management (starting from analytics, conversational AI and now GenAI platforms), I bring a strategic and analytical approach to solving complex challenges. My passion for continuous learning and adaptability drives me to stay ahead in an ever-evolving industry. I specialize in turning ambiguous AI capabilities into scalable, customer-centric products & focus on measurable outcomes - adoption, efficiency, and revenue...not just models and demos. Explore my portfolio to see how my experience can help power your next success.
 
+-------
 ### What I do
 - Build 0→1 GenAI products
 - Design AI agents for enterprise workflows
 - Translate complex AI systems into usable experiences
 - Partner deeply with engineering & design
 - Drive measurable business impact
-
+-------
 ### Product & AI Toolkit
 
 <img align="left" alt="Notion" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg"/>
@@ -34,7 +35,7 @@ With a strong background in product management (starting from analytics, convers
 <br />
 
 
-
+-------
 ### Featured Projects & Case Studies
 
 #### AI Project Risks
@@ -50,6 +51,7 @@ GenAI-based summarization of large feedback volumes.
 Built English, Hindi & Arabic chatbots/voicebots for enterprise & government clients.  
 **Impact:** +15% automation
 
+-------
 ### Blogs
 - [Welcome to My World: AI, Product Thinking & Personal Growth](https://sharmavibha287.wixsite.com/vibhasharma/post/your-title-what-s-your-blog-about)
 - [How to Improve PhonePe: A Simple Guide to Boosting Retention and Engagement](https://sharmavibha287.wixsite.com/vibhasharma/post/how-to-improve-phonepe-a-simple-guide-to-boosting-retention-and-engagement)
@@ -59,6 +61,7 @@ Built English, Hindi & Arabic chatbots/voicebots for enterprise & government cli
 
 👉 Read more on [Medium](https://medium.com/@sharmavibha287) (Upcoming) & few case studies [here](https://sharmavibha287.wixsite.com/vibhasharma)
 
+-------
 ### Let’s Connect
 📧 sharmavibha287@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/)  
