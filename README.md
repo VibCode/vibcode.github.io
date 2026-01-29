@@ -3,8 +3,8 @@
 
 ***`Building AI-powered products that simplify complex work!`***
 
-I’m a Senior Product Manager with 11+ years of experience across analytics, conversational AI, and GenAI platforms.  
-Currently at **ServiceNow**, I lead AI initiatives in Strategic Portfolio Management.
+
+With a strong background in product management (starting from analytics, conversational AI and now GenAI platforms), I bring a strategic and analytical approach to solving complex challenges. My passion for continuous learning and adaptability drives me to stay ahead in an ever-evolving industry. I specialize in turning ambiguous AI capabilities into scalable, customer-centric products & focus on measurable outcomes - adoption, efficiency, and revenue...not just models and demos. Explore my portfolio to see how my experience can help power your next success.
 
 ### What I do
 - Build 0→1 GenAI products
@@ -34,7 +34,7 @@ Currently at **ServiceNow**, I lead AI initiatives in Strategic Portfolio Manage
 
 
 
-### Featured Projects
+### Featured Projects & Case Studies
 
 #### AI Project Risks
 AI agent that proactively identifies project risks using internal SPM data.  
@@ -50,11 +50,13 @@ Built English, Hindi & Arabic chatbots/voicebots for enterprise & government cli
 **Impact:** +15% automation
 
 ### Blogs
+- [Welcome to My World: AI, Product Thinking & Personal Growth](https://sharmavibha287.wixsite.com/vibhasharma/post/your-title-what-s-your-blog-about)
+- [How to Improve PhonePe: A Simple Guide to Boosting Retention and Engagement](https://sharmavibha287.wixsite.com/vibhasharma/post/how-to-improve-phonepe-a-simple-guide-to-boosting-retention-and-engagement)
 - [How AI Agents Are Changing Product Management](https://medium.com/)
 - [RAG for Product Managers: A Practical Guide](https://medium.com/)
 - [From Analytics to PM](https://medium.com/)
 
-👉 Read more on [Medium](https://medium.com/@sharmavibha287)
+👉 Read more on [Medium](https://medium.com/@sharmavibha287) (Upcoming) & few case studies [here](https://sharmavibha287.wixsite.com/vibhasharma)
 
 ### Let’s Connect
 📧 sharmavibha287@gmail.com  
