@@ -13,6 +13,7 @@ With a strong background in product management (starting from analytics, convers
 - Translate complex AI systems into usable experiences
 - Partner deeply with engineering & design
 - Drive measurable business impact
+
 -------
 ### Product & AI Toolkit
 
