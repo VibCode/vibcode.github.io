@@ -4,7 +4,7 @@
 ***`Building AI-powered products that simplify complex work!`***
 
 
-With a strong background in product management (starting from analytics, conversational AI and now GenAI platforms), I bring a strategic and analytical approach to solving complex challenges. My passion for continuous learning and adaptability drives me to stay ahead in an ever-evolving industry. I specialize in turning ambiguous AI capabilities into scalable, customer-centric products & focus on measurable outcomes - adoption, efficiency, and revenue...not just models and demos. Explore my portfolio to see how my experience can help power your next success.
+With a strong background in product management (starting from analytics, conversational AI and now GenAI platforms), I bring a strategic and analytical approach to solving complex challenges. My passion for continuous learning and adaptability drives me to stay ahead in an ever-evolving industry. I specialize in turning ambiguous AI capabilities into scalable, customer-centric products & focus on measurable outcomes - adoption, efficiency, and revenue...not just models and demos.
 
 -------
 ### What I do
