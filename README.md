@@ -30,7 +30,8 @@ With a strong background in product management (starting from analytics, convers
 <img align="left" alt="Cloud" width="30px" src="https://img.icons8.com/color/48/cloud.png"/>
 <img align="left" alt="Agile" width="30px" src="https://img.icons8.com/color/48/sprint-iteration.png"/>
 <br />
-
+<br />
+<br />
 
 
 
