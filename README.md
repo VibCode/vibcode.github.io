@@ -1,10 +1,7 @@
+### Sr. Product Manager @ ServiceNow
 
-# Vibha Sharma
 
-
-**`Sr. Product Manager @ ServiceNow`**
-
-### Building AI-powered products that simplify complex work
+***`Building AI-powered products that simplify complex work!`***
 
 I’m a Senior Product Manager with 11+ years of experience across analytics, conversational AI, and GenAI platforms.  
 Currently at **ServiceNow**, I lead AI initiatives in Strategic Portfolio Management.
