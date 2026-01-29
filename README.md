@@ -35,7 +35,6 @@ Currently at **ServiceNow**, I lead AI initiatives in Strategic Portfolio Manage
 <br />
 
 
-#
 
 
 ### Featured Projects
