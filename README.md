@@ -1,4 +1,4 @@
-### Sr. Product Manager @ ServiceNow
+### Sr. Inbound Product Manager @ ServiceNow
 
 
 ***`Building AI-powered products that simplify complex work!`***
