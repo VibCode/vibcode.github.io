@@ -437,15 +437,16 @@ a {
   font-size: 9px;
 }
 
+
 /* PERSONAL REFLECTIONS */
 
 .about-reflections {
-  background: #fff;
+  background: var(--cream);
   padding: 62px 5% 70px;
 }
 
 .about-reflections .section-heading {
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 .reflection-content {
@@ -457,7 +458,7 @@ a {
 .reflection-preview {
   position: relative;
   z-index: 2;
-  background: #fff;
+  background: var(--cream);
   padding-bottom: 12px;
 }
 
@@ -478,7 +479,7 @@ a {
   margin: 0;
 }
 
-/* Subtle fade after the preview */
+/* Subtle fade showing that more content exists */
 .reflection-content::after {
   content: "";
   position: absolute;
@@ -488,8 +489,8 @@ a {
   height: 48px;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0),
-    #fff
+    rgba(233, 230, 223, 0),
+    var(--cream)
   );
   pointer-events: none;
 }
@@ -504,12 +505,12 @@ a {
 }
 
 .reflection-item {
-  padding: 25px 0;
-  border-top: 1px solid var(--line);
+  padding: 34px 0;
+  border-top: 0;
 }
 
 .reflection-item:first-child {
-  padding-top: 20px;
+  padding-top: 28px;
 }
 
 .reflection-toggle {
@@ -517,7 +518,7 @@ a {
   border: 0;
   background: none;
   padding: 0;
-  margin: 18px auto 0;
+  margin: 22px auto 0;
   color: var(--terracotta);
   font-family: "DM Sans", sans-serif;
   font-size: 11px;
@@ -550,7 +551,7 @@ a {
   }
 
   .about-reflections .section-heading {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
   }
 
   .reflection-preview h3,
@@ -558,15 +559,26 @@ a {
     font-size: 19px;
   }
 
-}
+  .reflection-item {
+    padding: 28px 0;
+  }
 
+}
 
 
 /* WRITING */
 
 .writing {
-  background: var(--cream);
+  background: var(--green);
   padding: 65px 5% 80px;
+}
+
+.writing .section-heading h2 {
+  color: var(--terracotta);
+}
+
+.writing .section-heading p {
+  color: #b9cbc6;
 }
 
 .article-list {
@@ -580,17 +592,17 @@ a {
   align-items: center;
   gap: 20px;
   padding: 23px 20px;
-  background: #fff;
-  border-bottom: 1px solid var(--line);
+  background: transparent;
+  border-bottom: 1px solid var(--green-soft);
   text-decoration: none;
-  color: var(--green);
+  color: #eef3f1;
   transition:
     background .2s ease,
     padding .2s ease;
 }
 
 .article-row:hover {
-  background: #f8f6f0;
+  background: rgba(255, 255, 255, .04);
   padding-left: 26px;
 }
 
@@ -605,13 +617,14 @@ a {
   font-size: 18px;
   font-weight: 600;
   margin: 0 0 6px;
+  color: #ffffff;
 }
 
 .article-content p {
   font-family: "DM Sans", sans-serif;
   font-size: 11px;
   line-height: 1.55;
-  color: #707a76;
+  color: #b9cbc6;
   margin: 0;
 }
 
