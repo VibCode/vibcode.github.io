@@ -419,7 +419,85 @@
 
   </section>
 
+  <!-- PERSONAL REFLECTIONS -->
+  <section class="about-reflections" id="about">
 
+    <div class="reflections-inner">
+
+      <h2>A few things I've learned about myself</h2>
+
+      <div class="reflection-content">
+
+        <div class="reflection-preview">
+          <h3>I figure things out.</h3>
+
+          <p>
+            Put me in an unfamiliar space, give me some time, and I’ll find
+            my way through it. I don’t...
+          </p>
+        </div>
+
+        <div class="reflection-full">
+
+          <div class="reflection-item">
+            <h3>I figure things out.</h3>
+            <p>
+              Put me in an unfamiliar space, give me some time, and I’ll find
+              my way through it. I don’t need to know everything on day one.
+              I’m comfortable learning as I go and figuring out what needs to
+              be done.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h3>I get things done.</h3>
+            <p>
+              One of the things I’ve consistently heard in feedback is that
+              I’m strong at execution. I like turning ideas into something
+              real — and I’m happiest when things actually move forward.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h3>I notice the details.</h3>
+            <p>
+              I naturally pay attention to the small things. It helps me catch
+              gaps, ask the extra question, and make sure the final product
+              feels right. The flip side? Sometimes I can care about the
+              details a little too much. I’m learning when to zoom in and when
+              to step back.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h3>I try to lead with empathy.</h3>
+            <p>
+              Whether it’s a customer, a teammate, or someone I disagree with,
+              I try to understand where they’re coming from before jumping to
+              a conclusion.
+            </p>
+          </div>
+
+          <div class="reflection-item">
+            <h3>I care about doing things the right way.</h3>
+            <p>
+              I value being honest, dependable, and straightforward — especially
+              when it would be easier not to be.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="reflection-toggle" type="button" aria-expanded="false">
+        Keep reading ↓
+      </button>
+
+    </div>
+
+  </section>
+  
   <!-- WRITING -->
   <section class="writing" id="writing">
 
@@ -607,6 +685,28 @@
   <small>© 2026 Vibha Sharma</small>
 
 </footer>
+
+<script>
+  const reflectionSection = document.querySelector('.about-reflections');
+  const reflectionToggle = document.querySelector('.reflection-toggle');
+
+  if (reflectionSection && reflectionToggle) {
+    reflectionToggle.addEventListener('click', () => {
+
+      const expanded =
+        reflectionSection.classList.toggle('is-expanded');
+
+      reflectionToggle.setAttribute(
+        'aria-expanded',
+        expanded
+      );
+
+      reflectionToggle.textContent =
+        expanded ? 'Show less ↑' : 'Keep reading ↓';
+
+    });
+  }
+</script>
 
 </body>
 </html>
