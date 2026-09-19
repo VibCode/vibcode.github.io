@@ -461,6 +461,26 @@ a {
   background: var(--cream);
   padding-bottom: 12px;
 }
+
+.reflection-preview p {
+  max-height: 44px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+.reflection-preview p::after {
+  content: "...";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-left: 20px;
+  background: linear-gradient(
+    to right,
+    rgba(233, 230, 223, 0),
+    var(--cream) 45%
+  );
+}
 .about-reflections:not(.is-expanded) .reflection-preview p {
   max-height: 44px;
   overflow: hidden;
