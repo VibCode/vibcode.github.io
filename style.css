@@ -437,7 +437,143 @@ a {
   font-size: 9px;
 }
 
+/* PERSONAL REFLECTIONS */
 
+.about-reflections {
+  background: #fff;
+  padding: 72px 12%;
+}
+
+.reflections-inner {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-reflections h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--terracotta);
+  margin: 0 0 30px;
+}
+
+.reflection-content {
+  position: relative;
+  max-width: 760px;
+}
+
+.reflection-preview h3,
+.reflection-item h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--green);
+  margin: 0 0 8px;
+}
+
+.reflection-preview p,
+.reflection-item p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #52635e;
+  margin: 0;
+}
+
+.reflection-preview {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  padding-bottom: 18px;
+}
+
+.reflection-full {
+  position: relative;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height .7s ease,
+    opacity .4s ease;
+}
+
+/* Subtle fade showing that more content exists */
+.reflection-content::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -12px;
+  height: 55px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    #fff
+  );
+  pointer-events: none;
+  transition: opacity .3s ease;
+}
+
+.reflection-item {
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.reflection-item:first-child {
+  padding-top: 10px;
+}
+
+.reflection-toggle {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin-top: 20px;
+  color: var(--terracotta);
+  font-family: "DM Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: .2px;
+}
+
+.reflection-toggle:hover {
+  text-decoration: underline;
+}
+
+/* Expanded state */
+
+.about-reflections.is-expanded .reflection-full {
+  max-height: 1600px;
+  opacity: 1;
+}
+
+.about-reflections.is-expanded .reflection-content::after {
+  opacity: 0;
+}
+
+.about-reflections.is-expanded .reflection-preview {
+  padding-bottom: 28px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 560px) {
+
+  .about-reflections {
+    padding: 55px 8%;
+  }
+
+  .about-reflections h2 {
+    font-size: 27px;
+    margin-bottom: 25px;
+  }
+
+  .reflection-preview h3,
+  .reflection-item h3 {
+    font-size: 20px;
+  }
+
+}
 /* WRITING */
 
 .writing {
