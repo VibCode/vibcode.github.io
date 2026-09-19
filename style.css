@@ -561,25 +561,7 @@ a {
 }
 
 
-/* MOBILE */
 
-@media (max-width: 560px) {
-
-  .about-reflections {
-    padding: 55px 8%;
-  }
-
-  .about-reflections h2 {
-    font-size: 27px;
-    margin-bottom: 25px;
-  }
-
-  .reflection-preview h3,
-  .reflection-item h3 {
-    font-size: 20px;
-  }
-
-}
 /* WRITING */
 
 .writing {
