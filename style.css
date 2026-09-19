@@ -465,10 +465,10 @@ a {
 .reflection-preview h3,
 .reflection-item h3 {
   font-family: "Playfair Display", serif;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--green);
-  margin: 0 0 8px;
+  margin: 0 0 7px;
 }
 
 .reflection-preview p,
@@ -505,12 +505,12 @@ a {
 }
 
 .reflection-item {
-  padding: 34px 0;
+  padding: 22px 0;
   border-top: 0;
 }
 
 .reflection-item:first-child {
-  padding-top: 28px;
+  padding-top: 16px;
 }
 
 .reflection-toggle {
@@ -556,11 +556,11 @@ a {
 
   .reflection-preview h3,
   .reflection-item h3 {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .reflection-item {
-    padding: 28px 0;
+    padding: 20px 0;
   }
 
 }
