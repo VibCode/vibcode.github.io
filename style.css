@@ -441,31 +441,30 @@ a {
 
 .about-reflections {
   background: #fff;
-  padding: 72px 12%;
+  padding: 62px 5% 70px;
 }
 
-.reflections-inner {
-  max-width: 900px;
-  margin: auto;
-}
-
-.about-reflections h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 32px;
-  font-weight: 600;
-  color: var(--terracotta);
-  margin: 0 0 30px;
+.about-reflections .section-heading {
+  margin-bottom: 30px;
 }
 
 .reflection-content {
-  position: relative;
   max-width: 760px;
+  margin: auto;
+  position: relative;
+}
+
+.reflection-preview {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  padding-bottom: 12px;
 }
 
 .reflection-preview h3,
 .reflection-item h3 {
   font-family: "Playfair Display", serif;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 600;
   color: var(--green);
   margin: 0 0 8px;
@@ -473,66 +472,57 @@ a {
 
 .reflection-preview p,
 .reflection-item p {
-  font-size: 13px;
-  line-height: 1.8;
+  font-size: 12px;
+  line-height: 1.75;
   color: #52635e;
   margin: 0;
 }
 
-.reflection-preview {
-  position: relative;
-  z-index: 2;
-  background: #fff;
-  padding-bottom: 18px;
-}
-
-.reflection-full {
-  position: relative;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition:
-    max-height .7s ease,
-    opacity .4s ease;
-}
-
-/* Subtle fade showing that more content exists */
+/* Subtle fade after the preview */
 .reflection-content::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -12px;
-  height: 55px;
+  bottom: -5px;
+  height: 48px;
   background: linear-gradient(
     to bottom,
-    rgba(255,255,255,0),
+    rgba(255, 255, 255, 0),
     #fff
   );
   pointer-events: none;
-  transition: opacity .3s ease;
+}
+
+.reflection-full {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height .6s ease,
+    opacity .4s ease;
 }
 
 .reflection-item {
-  padding: 28px 0;
+  padding: 25px 0;
   border-top: 1px solid var(--line);
 }
 
 .reflection-item:first-child {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .reflection-toggle {
+  display: block;
   border: 0;
   background: none;
   padding: 0;
-  margin-top: 20px;
+  margin: 18px auto 0;
   color: var(--terracotta);
   font-family: "DM Sans", sans-serif;
   font-size: 11px;
   font-weight: 600;
   cursor: pointer;
-  letter-spacing: .2px;
 }
 
 .reflection-toggle:hover {
@@ -550,8 +540,24 @@ a {
   opacity: 0;
 }
 
-.about-reflections.is-expanded .reflection-preview {
-  padding-bottom: 28px;
+
+/* MOBILE */
+
+@media (max-width: 560px) {
+
+  .about-reflections {
+    padding: 52px 8% 60px;
+  }
+
+  .about-reflections .section-heading {
+    margin-bottom: 25px;
+  }
+
+  .reflection-preview h3,
+  .reflection-item h3 {
+    font-size: 19px;
+  }
+
 }
 
 
